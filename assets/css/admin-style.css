@@ -1,0 +1,33 @@
+#tp-travel-package-options input, 
+#tp-travel-package-options select,
+#tp-travel-destination-options input,
+#tp-travel-destination-options select {
+    height: 40px;
+    padding: 0 10px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+#tp-travel-package-options input[type="checkbox"] {
+    height: 15px;
+    margin-top: 1px;
+    margin-right: 10px;
+    float: left;
+}
+#tp-travel-package-options select {
+	margin-bottom: 0;
+}
+#tp-travel-package-options label,
+#tp-travel-destination-options label {
+	font-size: 14px;
+}
+
+#tp-travel-package-options .featured_package_label {
+	display: inline-block;
+    margin-top: 7px;
+}
+.ui-datepicker-next:before {
+	content: '>';
+}
+.ui-datepicker-prev:before {
+	content: '<';
+}

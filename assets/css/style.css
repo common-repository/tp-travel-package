@@ -1,0 +1,35 @@
+.tp-star:before {
+	width: 20px;
+   height: 20px;
+   display: inline-block;
+   -webkit-mask: url("../uploads/star.svg") no-repeat 50% 50%;
+   mask: url("../uploads/star.svg") no-repeat 50% 50%;
+   -webkit-mask-size: cover;
+   mask-size: cover;
+    content: "";
+ 	background-color: #f0bd23;
+}
+
+.tp-half-star:before {
+  width: 20px;
+   height: 20px;
+   display: inline-block;
+   -webkit-mask: url("../uploads/half-star.svg") no-repeat 50% 50%;
+   mask: url("../uploads/half-star.svg") no-repeat 50% 50%;
+   -webkit-mask-size: cover;
+   mask-size: cover;
+    content: "";
+  background-color: #f0bd23;
+}
+
+.tp-star-o:before {
+  width: 20px;
+   height: 20px;
+   display: inline-block;
+   -webkit-mask: url("../uploads/empty-star.svg") no-repeat 50% 50%;
+   mask: url("../uploads/empty-star.svg") no-repeat 50% 50%;
+   -webkit-mask-size: cover;
+   mask-size: cover;
+    content: "";
+  background-color: #f0bd23;
+}
